@@ -24,6 +24,7 @@ int main(){
 
 	while(1){
 		if(fail > 6){
+			printf("kelime -> %s\n",kelime);
 			printf("\n***KAYBETTIN!***\n");
 			return 0;
 		}
